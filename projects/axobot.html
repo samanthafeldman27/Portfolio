@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bayly Lab, Axobot, Samantha Feldman</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="wrap">
+    <a class="brand" href="../index.html">Samantha Feldman</a>
+    <ul class="nav-links">
+      <li><a href="../index.html" class="active">Projects</a></li>
+      <li><a href="../about.html">About</a></li>
+      <li><a href="mailto:samantha.feldman@wustl.edu">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main class="wrap">
+
+  <section class="project-hero reveal">
+    <button class="gallery-item hero-item" data-type="image" data-full="../assets/media/axobot_cover.jpg" data-caption="The final Axobot chain, wired up for a test run on the bench">
+      <div class="thumb"><img src="../assets/media/axobot_cover.jpg" alt="Chain of linked bristlebot segments making up the Axobot cilium model, wired to bench power"></div>
+    </button>
+  </section>
+
+  <div class="project-title-row">
+    <h1>Bayly Lab, Axobot</h1>
+    <div class="project-meta-row">
+      <span class="pill accent">2023</span>
+      <span class="pill">Research Assistant</span>
+    </div>
+  </div>
+
+  <div class="project-intro">
+    <p>Cilia are tiny, hair-like structures that beat in a coordinated wave, but how their internal skeleton turns microscopic sliding into that wave is still an open question. In Dr. Philip Bayly's lab at WashU, I helped build Axobot: a mechanical model of a cilium scaled up to about 10,000 times life size, made from a chain of linked "bristlebot" segments. The goal was to test whether a proposed mechanical instability mechanism could plausibly reproduce that bending and beating motion at a scale you can actually watch.</p>
+    <p>I built on an earlier prototype from two labmates, improving the anchoring between segments, finishing the coupling, and getting the sliding surface to reset on its own instead of by hand, while tuning wiring, motor drive, and bristle stiffness. Our best configuration got one side of the model bending past 180 degrees, with a non-dimensional force in the same range as a real cilium, though getting it to oscillate back and forth the way the real thing does is still open work.</p>
+  </div>
+
+  <section class="gallery">
+    <div class="gallery-grid">
+      <button class="gallery-item gallery-full" data-type="image" data-full="../assets/media/bayly_poster.jpg" data-caption="Full research symposium poster: methodology, results, and next steps">
+        <div class="thumb"><img src="../assets/media/bayly_poster.jpg" alt="Research symposium poster: Developing a Novel Bristle-Driven Macroscopic Model of a Cilium"></div>
+        <span class="cap">Full research poster, methodology, results and next steps</span>
+      </button>
+    </div>
+  </section>
+
+</main>
+
+<div class="wrap">
+  <div class="project-pager">
+    <a href="dbf-copresident.html"><span class="dir">← Previous</span>WashU DBF, Co-President</a>
+    <a href="ucd-dynamical-systems.html"><span class="dir">Next →</span>UCD Dynamical Systems &amp; Risk Lab</a>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>© Samantha Feldman, <span data-year></span></p>
+    <ul class="footer-links">
+      <li><a href="../index.html">Projects</a></li>
+      <li><a href="../about.html">About</a></li>
+    </ul>
+  </div>
+</footer>
+
+<div id="lightbox" class="lightbox" hidden>
+  <button class="lb-close" aria-label="Close">&times;</button>
+  <button class="lb-prev" aria-label="Previous">&lsaquo;</button>
+  <div class="lb-stage">
+    <div class="lb-media"></div>
+    <p class="lb-caption"></p>
+  </div>
+  <button class="lb-next" aria-label="Next">&rsaquo;</button>
+</div>
+
+<script src="../script.js"></script>
+</body>
+</html>

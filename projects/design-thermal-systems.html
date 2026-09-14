@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Design of Thermal Systems, Samantha Feldman</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="wrap">
+    <a class="brand" href="../index.html">Samantha Feldman</a>
+    <ul class="nav-links">
+      <li><a href="../index.html" class="active">Projects</a></li>
+      <li><a href="../about.html">About</a></li>
+      <li><a href="mailto:samantha.feldman@wustl.edu">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main class="wrap">
+
+  <section class="project-hero reveal">
+    <button class="gallery-item hero-item contain" data-type="image" data-full="../assets/media/dots_combined_cycle_schematic.png" data-caption="The combined-cycle gas turbine: a Brayton topping cycle and Rankine bottoming cycle linked by a heat exchanger">
+      <div class="thumb"><img src="../assets/media/dots_combined_cycle_schematic.png" alt="Schematic of the combined Brayton topping cycle and Rankine bottoming cycle"></div>
+    </button>
+  </section>
+
+  <div class="project-title-row">
+    <h1>Design of Thermal Systems</h1>
+    <div class="project-meta-row">
+      <span class="pill accent">Spring 2026</span>
+      <span class="pill">MEMS 3430, WashU</span>
+    </div>
+  </div>
+
+  <div class="project-intro">
+    <p>Design of Thermal Systems (MEMS 3430) was a senior-year mechanical engineering course at WashU on analyzing and designing thermo-fluid and energy systems, covering power generation, heat exchangers, and renewable energy sources. The semester built toward a full combined-cycle gas turbine (CCGT) design through three sequential design homeworks, each building on the previous one, followed by a final group project.</p>
+  </div>
+
+  <section class="gallery tight">
+    <div class="gallery-grid">
+      <button class="gallery-item solo" data-type="image" data-full="../assets/media/dots_dh1_efficiency_plot.png" data-caption="Thermal efficiency vs. compression ratio for seven turbine/compressor isentropic efficiency pairings">
+        <div class="thumb"><img src="../assets/media/dots_dh1_efficiency_plot.png" alt="Plot of thermal efficiency vs compression ratio for the Brayton topping cycle"></div>
+        <span class="cap">Efficiency vs. compression ratio, DH1</span>
+      </button>
+    </div>
+  </section>
+  <div class="project-intro" style="padding-top:8px;">
+    <h3 style="font-family:var(--display); font-size:19px; margin:0 0 8px;">Design Homework 1 &middot; Brayton Topping Cycle</h3>
+    <p>Designed an open Brayton cycle to power a solar-tower plant in the Mojave Desert, using concentrated sunlight as the heat source. I optimized the compressor and turbine isentropic efficiency pairing and compression ratio to minimize the required solar heat input &mdash; landing on 101.78 MW at a compression ratio of 12 &mdash; then sized the heliostat field needed to supply it.</p>
+    <a class="btn" href="../assets/reports/dots_dh1_brayton_topping_cycle.pdf" target="_blank" rel="noopener">Download report (PDF)</a>
+  </div>
+
+  <section class="gallery tight" style="padding-top:26px;">
+    <div class="gallery-grid">
+      <button class="gallery-item solo" data-type="image" data-full="../assets/media/dots_dh2_efficiency_plot.png" data-caption="Thermal efficiency and turbine exit quality vs. turbine inlet pressure for the Rankine bottoming cycle">
+        <div class="thumb"><img src="../assets/media/dots_dh2_efficiency_plot.png" alt="Plot of thermal efficiency and turbine exit quality vs turbine inlet pressure"></div>
+        <span class="cap">Efficiency & turbine exit quality vs. inlet pressure, DH2</span>
+      </button>
+    </div>
+  </section>
+  <div class="project-intro" style="padding-top:8px;">
+    <h3 style="font-family:var(--display); font-size:19px; margin:0 0 8px;">Design Homework 2 &middot; Rankine Bottoming Cycle</h3>
+    <p>Designed a closed Rankine cycle for the bottoming half of the same combined-cycle system, cooled with water drawn from the Colorado River. I optimized the turbine inlet pressure against a minimum allowable turbine exit quality (to avoid turbine-blade erosion from droplet impingement), reaching a Rankine cycle thermal efficiency of 29.2% and a combined topping-plus-bottoming efficiency of 51.48%.</p>
+    <a class="btn" href="../assets/reports/dots_dh2_rankine_bottoming_cycle.pdf" target="_blank" rel="noopener">Download report (PDF)</a>
+  </div>
+
+  <section class="gallery tight" style="padding-top:26px;">
+    <div class="gallery-grid">
+      <button class="gallery-item solo" data-type="image" data-full="../assets/media/dots_dh3_heat_exchanger_diagram.png" data-caption="The three-stage heat exchanger coupling the Brayton and Rankine cycles: preheater, evaporator, superheater">
+        <div class="thumb"><img src="../assets/media/dots_dh3_heat_exchanger_diagram.png" alt="Diagram of the preheater, evaporator, and superheater coupling the two cycles"></div>
+        <span class="cap">Preheater, evaporator, superheater</span>
+      </button>
+      <button class="gallery-item solo" data-type="image" data-full="../assets/media/dots_dh3_tx_diagram.jpeg" data-caption="My T-x diagram for the heat exchanger, tracking both fluid streams through the preheater, evaporator, and superheater">
+        <div class="thumb"><img src="../assets/media/dots_dh3_tx_diagram.jpeg" alt="Hand-drawn temperature vs quality diagram for the heat exchanger"></div>
+        <span class="cap">T-x diagram, sketched by hand</span>
+      </button>
+    </div>
+  </section>
+  <div class="project-intro" style="padding-top:8px;">
+    <h3 style="font-family:var(--display); font-size:19px; margin:0 0 8px;">Design Homework 3 &middot; CCGT Heat Exchanger Design</h3>
+    <p>Designed the heat exchanger that couples the two cycles: a shell-and-tube preheater, a fire-tube evaporator, and a counterflow superheater. I sized each section's geometry and heat-transfer area to move heat from the Brayton exhaust into the Rankine working fluid, completing the combined-cycle design started in DH1 and DH2.</p>
+    <a class="btn" href="../assets/reports/dots_dh3_heat_exchanger_ccgt.pdf" target="_blank" rel="noopener">Download report (PDF)</a>
+  </div>
+
+  <section class="gallery tight" style="padding-top:26px;">
+    <div class="gallery-grid">
+      <button class="gallery-item solo" data-type="image" data-full="../assets/media/dots_final_stirling_dish.png" data-caption="A dish-Stirling system: the parabolic reflector concentrates sunlight onto a receiver and Stirling engine at the focal point">
+        <div class="thumb"><img src="../assets/media/dots_final_stirling_dish.png" alt="Diagram of a dish-Stirling solar power system"></div>
+        <span class="cap">Dish-Stirling system concept</span>
+      </button>
+      <button class="gallery-item solo" data-type="image" data-full="../assets/media/dots_final_dni_chart.png" data-caption="Modeled solar energy input (DNI) over the day, for winter and summer">
+        <div class="thumb"><img src="../assets/media/dots_final_dni_chart.png" alt="Chart of solar DNI over the day for winter and summer"></div>
+        <span class="cap">Solar input, winter vs. summer</span>
+      </button>
+    </div>
+  </section>
+  <div class="project-intro" style="padding-top:8px;">
+    <h3 style="font-family:var(--display); font-size:19px; margin:0 0 8px;">Final Project &middot; Solar Stirling Cycle</h3>
+    <p>For the final group project (with Thanh Lung, Nina Woodward, and Matthew Brouillet), we designed a solar dish-Stirling engine and battery storage system to power WashU's Urbauer machine shop. We sized the system against an estimated 50 kW peak shop load and modeled the seasonal difference in solar input between summer and winter. The system produced a surplus of about 368 kWh on a sunny day, enough to cover the roughly 204 kWh needed to run the shop off the battery bank after sunset, with about 156 kWh left over as a safety margin.</p>
+    <a class="btn" href="../assets/reports/dots_final_solar_stirling.pdf" target="_blank" rel="noopener">Download report (PDF)</a>
+  </div>
+
+</main>
+
+<div class="wrap">
+  <div class="project-pager">
+    <a href="medtronic.html"><span class="dir">← Previous</span>Medtronic, DRM Green Belt</a>
+    <a href="../index.html"><span class="dir">Back to</span>All projects</a>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>© Samantha Feldman, <span data-year></span></p>
+    <ul class="footer-links">
+      <li><a href="../index.html">Projects</a></li>
+      <li><a href="../about.html">About</a></li>
+    </ul>
+  </div>
+</footer>
+
+<div id="lightbox" class="lightbox" hidden>
+  <button class="lb-close" aria-label="Close">&times;</button>
+  <button class="lb-prev" aria-label="Previous">&lsaquo;</button>
+  <div class="lb-stage">
+    <div class="lb-media"></div>
+    <p class="lb-caption"></p>
+  </div>
+  <button class="lb-next" aria-label="Next">&rsaquo;</button>
+</div>
+
+<script src="../script.js"></script>
+</body>
+</html>
